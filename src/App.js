@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import Cards from "./cards";
+import "./App.css";
+import State from "./State";
+import Calculator from "./Calculator";
+import Background from "./background";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Cards
+        name="Wasif"
+        paragraph="Electronic devices, ubiquitous in modern life, seamlessly connect us. From smartphones to smart homes, they streamline tasks, entertain, and foster communication, shaping our interconnected world."
+      />
+      <Cards
+        name="Fazal"
+        paragraph="Electronic devices, ubiquitous in modern life, seamlessly connect us. From smartphones to smart homes, they streamline tasks, entertain, and foster communication, shaping our interconnected world."
+      /> */}
+
+      {/* <State /> */}
+      {/* <Calculator /> */}
+      <Background />
+    </>
   );
-}
+};
 
 export default App;
