@@ -4,6 +4,7 @@ import "./App.css";
 import State from "./State";
 import Calculator from "./Calculator";
 import Background from "./background";
+import PasswordGenerator from "./PasswordGenerator";
 
 const App = () => {
   return (
@@ -19,7 +20,8 @@ const App = () => {
 
       {/* <State /> */}
       {/* <Calculator /> */}
-      <Background />
+      {/* <Background /> */}
+      <PasswordGenerator />
     </>
   );
 };
